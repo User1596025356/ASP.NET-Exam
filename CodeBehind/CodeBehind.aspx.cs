@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 
 public partial class CodeBehind : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void BtnSubmit_Click(object sender, EventArgs e)
     {
-
+        lblMessage.Text = "不管您输入什么，我都喜欢ASP.NET!";
     }
 }

@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:TextBox ID="txtInput" runat="server">请输入内容</asp:TextBox>
+            <asp:Label ID="lblMessage" runat="server"></asp:Label><br />
+            <asp:Button ID="btnSubmit" runat="server" OnClick="BtnSubmit_Click" Text="确定"/>
         </div>
     </form>
 </body>
